@@ -35,6 +35,14 @@ You will be asked for an export password (or export phrase). In this example it 
 4) Ensure you have M2Crypto installed
 
     sudo easy_install M2Crypto
+    
+## Installation of M2Crypto on Mac
+
+1. Install 
+https://stackoverflow.com/questions/33005354/trouble-installing-m2crypto-with-pip-on-os-x-macos
+3. export python 2.7 hooks
+export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages
+
 
 ## Typical Usage
 
